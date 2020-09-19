@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 ﻿Hello, World
 
+=======
+Hello, World
+Здравствуй, мир
+>>>>>>> adfd71b25c5bbf7552cb4cb43209a67e8612b275
