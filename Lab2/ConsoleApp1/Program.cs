@@ -63,16 +63,16 @@ namespace Lab2
             string lit3 = "и cравнить ";
             string lit4 = "и cравнить ";
 
-            Console.WriteLine(string.Compare(lit1, lit2));//-1 (первая строка выше второй по алфавиту)
-            Console.WriteLine(string.Compare(lit2, lit3)); //1 (вторая выше первой)
-            Console.WriteLine(string.Compare(lit4, lit3)); //0 (равны)
+            Console.WriteLine(string.Compare(lit1, lit2));
+            Console.WriteLine(string.Compare(lit2, lit3)); 
+            Console.WriteLine(string.Compare(lit4, lit3)); 
             Console.WriteLine();
 
             string lit5 = string.Concat(lit1, lit2, lit3);
-            Console.WriteLine(lit5); // слияние
-            string cop = string.Copy(lit1); // копирование
+            Console.WriteLine(lit5); 
+            string cop = string.Copy(lit1); 
             Console.WriteLine(cop);
-            Console.WriteLine(lit2.Substring(2,11)); // выделение подстроки с 2 позиции, длина 11
+            Console.WriteLine(lit2.Substring(2,11)); 
             Console.WriteLine();
 
             string[] words = lit5.Split(' ');
