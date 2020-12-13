@@ -93,13 +93,13 @@ namespace Lab8
             NewMess = message;
         }
     }
-    abstract class Info
+    abstract public class Info
     {
         public string Language { get; set; }
         public int YearOfIssue { get; set; }
         public int NumberOfPages { get; set; }
     }
-    class Book : Info
+    public class Book : Info
     {
         public string NameOfBook { get; set; }
         public Book(string name, string language, int year, int pages)
@@ -150,6 +150,10 @@ namespace Lab8
                 Console.WriteLine("_______________Исключения_______________");
                 Console.WriteLine("Возникло исключение: " + ex.NewMess);
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Возникло исключение: " + ex.Message);
+            }
             finally
             {
                 Console.WriteLine("_______________Завершена работа с исключениями_______________\n");
@@ -173,7 +177,7 @@ namespace Lab8
             try
             {
                 Console.WriteLine("\n__________________________Запись в файл__________________________");
-                StreamWriter write = new StreamWriter(@"C:\OOP\Lab8\Для записи и чтения.txt");
+                StreamWriter write = new StreamWriter(@"C:\OOP\Lab8\Для записи и чтения.txt", false);
                 write.WriteLine("Список 1:");
                 StringList.FileWrite(write);
                 write.WriteLine("\nСписок 2:");
