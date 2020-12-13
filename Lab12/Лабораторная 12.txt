@@ -1,0 +1,123 @@
+Содержимое класса Lab12.Product:
+Method —— get_Name
+Method —— set_Name
+Method —— get_Manufacturer
+Method —— set_Manufacturer
+Method —— get_Price
+Method —— set_Price
+Method —— get_ShelfLife
+Method —— set_ShelfLife
+Method —— get_Quantity
+Method —— set_Quantity
+Method —— GetHashCode
+Method —— Equals
+Method —— ToString
+Method —— SumOfProduct
+Method —— GetType
+Constructor —— .ctor
+Constructor —— .ctor
+Property —— Name
+Property —— Manufacturer
+Property —— Price
+Property —— ShelfLife
+Property —— Quantity
+Field —— UPC
+Field —— random
+Field —— NumberOfProducts
+
+
+Содержимое класса Lab12.Textbook:
+Method —— get_NameOfTextbook
+Method —— set_NameOfTextbook
+Method —— ToString
+Method —— Show
+Method —— get_Language
+Method —— set_Language
+Method —— get_YearOfIssue
+Method —— set_YearOfIssue
+Method —— get_NumberOfPages
+Method —— set_NumberOfPages
+Method —— Equals
+Method —— GetHashCode
+Method —— GetType
+Constructor —— .ctor
+Constructor —— .ctor
+Property —— NameOfTextbook
+Property —— Language
+Property —— YearOfIssue
+Property —— NumberOfPages
+
+
+Публичные методы класса Lab12.Product:
+get_Name —— String
+set_Name —— Void
+get_Manufacturer —— String
+set_Manufacturer —— Void
+get_Price —— Single
+set_Price —— Void
+get_ShelfLife —— String
+set_ShelfLife —— Void
+get_Quantity —— Int32
+set_Quantity —— Void
+GetHashCode —— Int32
+Equals —— Boolean
+ToString —— String
+SumOfProduct —— Single
+GetType —— Type
+
+
+Публичные методы класса Lab12.Textbook:
+get_NameOfTextbook —— String
+set_NameOfTextbook —— Void
+ToString —— String
+Show —— Void
+get_Language —— String
+set_Language —— Void
+get_YearOfIssue —— Int32
+set_YearOfIssue —— Void
+get_NumberOfPages —— Int32
+set_NumberOfPages —— Void
+Equals —— Boolean
+GetHashCode —— Int32
+GetType —— Type
+
+
+Поля класса Lab12.Product:
+UPC
+random
+NumberOfProducts
+
+
+Свойства класса Lab12.Product:
+Name
+Manufacturer
+Price
+ShelfLife
+Quantity
+
+
+Поля класса Lab12.Textbook:
+
+
+Свойства класса Lab12.Textbook:
+NameOfTextbook
+Language
+YearOfIssue
+NumberOfPages
+
+
+Реализованные интерфейсы класса Lab12.Textbook:
+IShow1
+
+
+Методы класса Lab12.Product, которые содержат параметр типа Int32:
+set_Quantity
+SumOfProduct
+
+
+Методы класса Lab12.Textbook, которые содержат параметр типа String:
+set_NameOfTextbook
+Show
+set_Language
+
+
