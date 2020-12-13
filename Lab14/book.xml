@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Language>английский</Language>
+  <YearOfIssue>2017</YearOfIssue>
+  <NumberOfPages>203</NumberOfPages>
+  <NameOfBook>Carrie</NameOfBook>
+</Book>

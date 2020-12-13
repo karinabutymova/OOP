@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<ArrayOfBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Book>
+    <Language>русский</Language>
+    <YearOfIssue>2019</YearOfIssue>
+    <NumberOfPages>702</NumberOfPages>
+    <NameOfBook>Немного ненависти</NameOfBook>
+  </Book>
+  <Book>
+    <Language>английский</Language>
+    <YearOfIssue>2020</YearOfIssue>
+    <NumberOfPages>408</NumberOfPages>
+    <NameOfBook>EnglishInfo</NameOfBook>
+  </Book>
+  <Book>
+    <Language>русский</Language>
+    <YearOfIssue>2019</YearOfIssue>
+    <NumberOfPages>193</NumberOfPages>
+    <NameOfBook>Маленькие женщины</NameOfBook>
+  </Book>
+  <Book>
+    <Language>английский</Language>
+    <YearOfIssue>2017</YearOfIssue>
+    <NumberOfPages>203</NumberOfPages>
+    <NameOfBook>Carrie</NameOfBook>
+  </Book>
+</ArrayOfBook>

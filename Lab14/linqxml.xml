@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<goods>
+  <good name="Простой карандаш">
+    <quantity>70</quantity>
+    <country>Чехия</country>
+  </good>
+  <good name="Ручка шариковая">
+    <quantity>100</quantity>
+    <country>Польша</country>
+  </good>
+  <good name="Фломатеры">
+    <quantity>12</quantity>
+    <country>Чехия</country>
+  </good>
+</goods>
